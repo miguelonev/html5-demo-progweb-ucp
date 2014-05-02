@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Voz</title>
+        <title>text-stroke y Reconocimiento de Voz</title>
         <meta charset="UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-            <style>
+        <style>
             h1{
              -webkit-text-stroke-width: 1px;
              -webkit-text-stroke-color: black;
@@ -21,7 +21,7 @@
     <body>
         <div> 
             <h1>Programación Web Html5</h1>
-            <h2>Reconocimiento de voz</h2>
+            <h2>Reconocimiento de voz y text-stroke</h2>
             <script>if (document.createElement("input").webkitSpeech === undefined) {
                 document.write("<p>Lo siento, tu navegador no soporta esta función.</p>");
             }</script>
