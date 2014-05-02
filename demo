@@ -8,7 +8,10 @@
     <body>
         <div> 
             <h1>Reconocimiento de voz</h1>
-            Hablar<input type="text" x-webkit-speech />
+            <script>if (document.createElement("input").webkitSpeech === undefined) {
+                document.write("<p>Lo siento, tu navegador no soporta esta función.</p>");
+            }</script>
+            Hablar<input type="text" x-webkit-speech>
         </div>
     </body>
 </html>
