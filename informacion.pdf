@@ -1,1 +1,18 @@
-dasd
+UNIVERSIDAD DE LA CUENCA DEL PLATA
+Apellido y Nombre: Villagrán, Miguel Emmanuel.
+CAMPOS DE VOZ CON HTML5
+Los avances de la tecnología alcanzan impresionarnos cada vez más, una clara prueba de esto, es que gracias al formato HTML5 ya no debes escribir para comunicarte y realizar algunas actividades similares. Esto se debe a que puedes dictar directamente a tu navegador, para que este sea el encargado de escribir por ti.
+Uno de los primeros navegadores en demostrar esto, ha sido Chrome en sus últimas versiones con importantes actualizaciones por parte de Google. En la versión Chrome 11 del navegador, puedes encontrar características de voz activa por defecto, para probarlo, puedes realizar un test con solo pulsar el botón de micrófono.
+Si esto resulta interesante, pues es solo una pequeña muestra de las grandes cosas de las que es capaz la tecnología. Además, debes saber que la implementación de html5 en la creación de sitios web, aún inicia y con el correr del tiempo, se podrá observar cada vez más sitios con esta y muchas otras mejoras.
+API DE HTML5 PARA ENTRADA DE VOZ
+Para que en un sitio web se pueda observar el campo de voz, debe incluir un poco de código html como el siguiente ‘<input type=”text” x-webkit-speech=””>’.Aunque si deseas respetar la sintaxis de xhtml, pude ser ‘<input type=”text” x-webkit-speech=” x-webkit-speech”>.
+En este caso, el atributo ‘x-webkit-speech’ lo puedes utilizar en cualquier elemento input de html, ya sea de tipo texto, número, teléfono o búsqueda. Aunque también se debe tomar en cuenta que no se permite utilizarlo en campos textarea. Esto quizás se deba al intento de impedir el dictado de largos textos, pudiendo ser por motivos de rendimiento o el alto consumo de memoria que produjese en cualquier equipo.
+En el caso de que utilicemos estas características y el navegador no sea compatible con las mismas, simplemente las ignorará sin causarnos mayores problemas.  Incluso podremos condicionar nuestros scripts para que funcionen solo en navegadores sin soporte para las nuevas características de manejo de formularios, por ej si tenemos un script de selección de fechas podremos hacer que funcione solo en Internet Explorer pero que en Opera sea el mismo navegador el que se encargué de mostrarnos su selector de fechas.
+Por el momento, son todavía pocos los navegadores que cuentan con soporte para dictado de textos, donde es mostrado únicamente el campo de texto estándar. Sin embargo son cada vez más los navegadores que apuestan por introducir este tipo de cambios.
+De esta forma, la entrada de voz es una de las tecnologías de navegación más prometedora de los últimos tiempos, donde gracias a html5 pude ser implementada en diferentes sitios dedicados a diversas materias.
+USOS ENTRADA DE VOZ
+•	Dictado asistido para personas con problemas de movilidad.
+•	Una opción de entrada alternativa en teléfonos móviles y tabletas.
+•	Cualquier entorno donde un teclado o mouse es poco práctico.
+TEXT-STROKE
+Es muy fácil hacer borde en un texto con imágenes, con Photoshop, pero, ¿Y si queremos cambiar el texto?, debemos hacer el mismo procedimiento una y otra vez. Una nueva característica de CSS3, text-stroke, es la inclusión de borde en el texto, de una forma muy sencilla. Pero hay que destacar que por ahora funciona únicamente en navegadores basados en WebKit (Safari, Chrome, iPhone). Por ejemplo, si aplicamos texto con un color blanco y borde rojo, en Firefox simplemente aparecerá dicho texto en negro de una forma común e igual a cualquier letra, ya que no existe borde, porque no reconoce esta propiedad. 
